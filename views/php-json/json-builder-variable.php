@@ -25,7 +25,7 @@
       $temp['name'] = "PLX - GA ID";
       $temp['type'] = "c";
       $temp['parameter'] = array(
-        parameter("TEMPLATE", "value", "2")
+        parameter("TEMPLATE", "value", $gaid_text)
       );
 
       // Push to main TAG array

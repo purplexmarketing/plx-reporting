@@ -32,10 +32,10 @@
     // Checking the validity of the GTM ID and Account ID
     
       // Returns true if string, atleast 10 characters and contains 'GTM-'
-      $gtm_valid = ( ( gettype($gtm_id) == 'string' ) && ( strlen($gtm_id) >= 10 ) && ( strpos( $gtm_id, 'GTM-' ) !== false ) )? true : false ;
+      $gtm_valid = ( ( gettype($gtm_id) == 'string' ) && ( strlen($gtm_id) >= 8 ) && ( strpos( $gtm_id, 'GTM-' ) !== false ) )? true : false ;
       
       // Returns true if string, atleast 10 characters
-      $acc_valid = ( ( gettype($acc_id) == 'string' ) && ( strlen($acc_id) >= 10 ) )? true : false ;
+      $acc_valid = ( ( gettype($acc_id) == 'string' ) && ( strlen($acc_id) >= 8 ) )? true : false ;
 
       if( !$gtm_valid || !$acc_valid ):?>
 

@@ -31,3 +31,7 @@ Speeds up Google Tag Manager integration by providing customisable and importabl
 
 = 1.0.1 =
 * Added contributors
+
+= 1.0.2 =
+* Fixed issue with incorrect Analytics ID in JSON export
+* Fixed validation for GTM Account IDs
