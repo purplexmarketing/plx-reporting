@@ -2,7 +2,7 @@
 /**
 * Plugin Name: PLX Reporting
 * Description: Speeds up Google Tag Manager integration by providing customisable and importable GTM JSON and also setting up Javascript dataLayer functions for Contact Form 7 integration.
-* Version: 1.0.2
+* Version: 1.0.3
 * Author: Purplex
 * Author URI: http://plx.mk
 * License: GPL2
@@ -27,7 +27,7 @@
   /***********************************/
 
   // Define Plugin Paths
-  define( 'PLX_REPORTING_VERSION', '1.0.0' );
+  define( 'PLX_REPORTING_VERSION', '1.0.3' );
   define( 'PLX_REPORTING_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
   define( 'PLX_REPORTING_PLUGIN_BASENAME', plugin_basename(__FILE__) );
   define( 'PLX_REPORTING_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

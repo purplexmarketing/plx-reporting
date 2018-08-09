@@ -23,7 +23,7 @@
           parameter("BOOLEAN", "overrideGaSettings", "true"),
           parameter("TEMPLATE", "eventCategory", "PLX - CF7"),
           parameter("TEMPLATE", "trackType", "TRACK_EVENT"),
-          parameter("TEMPLATE", "eventAction", "submission"),
+          parameter("TEMPLATE", "eventAction", "submission {{PLX - FORM ID}}"),
           parameter("TEMPLATE", "eventLabel", "{{Page URL}}"),
           parameter("TEMPLATE", "trackingId", "{{PLX - GA ID}}")
         );

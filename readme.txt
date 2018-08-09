@@ -1,10 +1,10 @@
 === PLX Lead Reporting ===
-Contributors: plxjmcgrory,mattstone-plx
+Contributors: jmcgrory-plx,matt-plx,JadeSperrin-plx
 Tags: gtm,google tag manager, tag manager,cf7,contact form 7,json
 Requires at least: 3.5
 Tested up to: 4.9
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -35,3 +35,6 @@ Speeds up Google Tag Manager integration by providing customisable and importabl
 = 1.0.2 =
 * Fixed issue with incorrect Analytics ID in JSON export
 * Fixed validation for GTM Account IDs
+
+= 1.0.3 =
+* Added Form ID variable to the tag eventAction so it now outputs 'submission {{PLX - FORM ID}}'
